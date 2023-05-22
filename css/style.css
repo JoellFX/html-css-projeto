@@ -12,7 +12,8 @@
   --bg-rodape: #fff;
   --header-img: #000;
   --titulo-color: #000;
-  --paragrafo-color: #000
+  --paragrafo-color: #000;
+  --onda: url("../img/onda-clara.svg");
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,12 +23,13 @@
     --titulo-color: #fff;
     --link-color: #f7f7f7;
     --color-intro-button: #0a0a0a;
-    --subtitulo-color: #fff;
+    --subtitulo-color: rgba(255, 255, 255, .2);
     --vantagens-bg: #0a0a0a;
     --vantagens-bg2: #0f0f0f;
     --bg-rodape: #0a0a0a;
     --header-img: #fff;
-    --paragrafo-color: #b7b7b7
+    --paragrafo-color: #b7b7b7;
+    --onda: url("../img/onda-escura.svg");
   }
 }
 
@@ -152,7 +154,7 @@ p {
   text-align: right;
   color: var(--subtitulo-color);
   padding: 2.5rem;
-  background: var(--bg-body) url(../img/onda.svg);
+  background-image: var(--onda);
 }
 
 .img-bikcraft img{
